@@ -4,8 +4,9 @@
   padding: 0;
 }
 main{
-  background-color: aquamarine;
+  background-color: rgb(105, 215, 215);
   color: white;
+  
   
 }
 
@@ -14,13 +15,8 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 16px;
-  /*margin-bottom: 1px;*/
+  /*margin-bottom: 10px;*/
 }
-
-nav {
-  /*background-color: #EF7D19;*/
-}
-
 ul {
   display: flex;
   height: 100%;
@@ -33,7 +29,7 @@ nav ul li {
 }
 section{
   display: flex;
-  margin: 1em;
+ /* margin: 1em;*/
   justify-content: center;
 
 
@@ -52,8 +48,10 @@ main section div{
   padding: 16px;
   margin-bottom: 16px;
 }
-footer{
+footer {
   text-align: center;
   background-color: rgb(255, 132, 0);
+  color: aliceblue; 
 }
+
 
