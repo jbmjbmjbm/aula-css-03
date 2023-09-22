@@ -52,4 +52,8 @@ main section div{
   padding: 16px;
   margin-bottom: 16px;
 }
+footer{
+  text-align: center;
+  background-color: rgb(255, 132, 0);
+}
 
