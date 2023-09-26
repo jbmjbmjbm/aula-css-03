@@ -3,75 +3,104 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background-color: #6c3c9d;
+}
 
 
 header{
-  background-color: rgb(211, 211, 232);
-  display: flex;
-  padding: 8px;  
-  justify-content: space-between;  
-}
-main {
-  background-color: rgb(167, 219, 230);
-  color: white;
+  display: flex; /*propriedade exibe os elementos Filhos de forma horizontal contidos no elemento Pai */
+  margin-top: 2px;
+  background-color: lightgrey; /*propriedade cor de fundo do elemento*/
+  margin-bottom: px; /*Insere um espaçamento externo inferior  do elemento*/
+  padding: 8px; /*Insere um espaçamento interno do elemento*/
+  justify-content: space-between; /*Propriedade coloca um espaço no meio e separa os elementos fihos nos extremos*/
 }
 
 
-h1{
-  margin: 1px;
-  text-align: center;
-}
-
-
-h2{
-  
-  text-align: center;
-}
-h3{
-  text-align: center;
-  margin-bottom: 5px;
-}
-
-
-section{
-  display: flex;
-  justify-content: center;
-}
-
-section div{
-  background-color: orange;
-  margin: 15px;  
-  width: 300px;
-  height: 200px;
-  padding: 16px;  
-  justify-content: space-between;
-}
-
+/*nav{
+  background-color: orange; /*propriedade cor de fundo do elemento*
+}*/
 
 
 ul{
-  display: flex;
-  align-items: center;
-  height: 100%;
+  display: flex; /*propriedade exibe os elementos Filhos de forma horizontal contidos no elemento Pai */
+  align-items: center; /*Alinha o elemento verticalmente ao centro*/
+  height: 100%; /*Esta propriedade altura ocupa toda espaço do elemento Pai alinhando ao centro */
 }
 
 
 nav ul li{
-  list-style: none;
-  margin-left: 16px;
+  list-style-type: none; /*Remove o marcadores da lista não ordenada*/
+  margin-left: 16px; /*Insere um espaçamento a esquerda dos elementos*/
 }
 
 
 a{
-  list-style-type: none;
-  text-decoration: none;
+  text-decoration: none; /*Remove underline do links da lista não ordenada*/
+  color: rgb(255, 255, 255); /*propriedade cor da fonte do elemento*/
 }
 
+
+main{
+  background-color: none; /*propriedade cor de fundo do elemento*/
+  color: #FFFFFF; /*propriedade cor da fonte do elemento*/
+  padding-top: 16px; /*Insere um espaçamento superior interno apenas do elemento*/
+  padding-left: 12px;
+  width: 800px;
+  margin: 0 auto;
+  
+}
+
+
+h1{
+  font-size: 3rem;
+  
+
+}
+
+
+h2{
+  font-size: 1.5;
+  margin-bottom: 20px;
+
+}
+
+
+h3{
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+
+}
+
+
+section{
+  display: flex; /*propriedade exibe os elementos Filhos de forma horizontal contidos no elemento Pai */
+}
+
+section div{
+  background-image: url("img/bg_laranja.jpg"); /*propriedade imagem de fundo do elemento*/
+  /*margin: 16px; Insere um espaçamento externo do elemento*/
+  padding: 24px; /*Insere um espaçamento interno do elemento*/
+  height: 200px; /*Insere uma altura no elemento*/
+  width: 300px; /*Insere uma largura no elemento*/
+  border-radius: 16px;
+  
+}
+
+section div:first-of-type{
+  margin-right: 16px;
+}
+section :first-of-type{
+  margin-top: 5px;
+  
+  
+  
+}
 
 footer{
+  margin-top: 12px;
+  background-color: lightgray;
   text-align: center;
-  background-color: rgb(211, 211, 232);
-  color: white;
-  margin-top: 1px;
+  color: #FFFFFF;
 }
-
