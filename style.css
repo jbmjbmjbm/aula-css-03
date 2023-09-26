@@ -84,7 +84,7 @@ section div{
   height: 200px; /*Insere uma altura no elemento*/
   width: 300px; /*Insere uma largura no elemento*/
   border-radius: 16px; /*Define o elemnto com as bordas arredondas*/
-  box-shadow: 10px 9px 10px rgba(255, 166, 0, 0.683); /*Define sombras no elemento*/
+  box-shadow: 10px 9px 10px rgba(255, 166, 0, 0.574); /*Define sombras no elemento*/
 }
 
 section div:first-of-type{ /*Seleciona o primeiro elemento da div que esta na section*/
