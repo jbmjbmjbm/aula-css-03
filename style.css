@@ -1,8 +1,10 @@
-* {
+* { /*Reset*/
   font-family: 'Maven Pro', sans-serif;
   margin: 0;
   padding: 0;
 }
+
+
 body{
   background-color: #6c3c9d;
 }
@@ -10,9 +12,9 @@ body{
 
 header{
   display: flex; /*propriedade exibe os elementos Filhos de forma horizontal contidos no elemento Pai */
-  margin-top: 2px;
-  background-color: rgb(145, 117, 117); /*propriedade cor de fundo do elemento*/
-  margin-bottom: px; /*Insere um espaçamento externo inferior  do elemento*/
+  margin-top: 0px;
+  background-color: rgb(201, 205, 218); /*propriedade cor de fundo do elemento*/
+  margin-bottom: 0px; /*Insere um espaçamento externo inferior  do elemento*/
   padding: 8px; /*Insere um espaçamento interno do elemento*/
   justify-content: space-between; /*Propriedade coloca um espaço no meio e separa os elementos fihos nos extremos*/
 }
@@ -43,35 +45,32 @@ a{
 
 
 main{
-  background-color: none; /*propriedade cor de fundo do elemento*/
+  /*background-color: aqua; propriedade cor de fundo do elemento*/
   color: #FFFFFF; /*propriedade cor da fonte do elemento*/
-  padding-top: 16px; /*Insere um espaçamento superior interno apenas do elemento*/
-  padding-left: 12px;
-  width: 800px;
-  margin: 0 auto;
+  padding-top: 16px; /*Insere um espaçamento interno superior apenas do elemento*/
+  padding-left: 12px; /*Insere um espaçamento interno para a esquerda */
+  width: 800px; /*Insere uma largura no elemento*/
+  margin: 0 auto; /*Para prosicionar horizontalmente ao centro margin com dois valores o valor zero para não definir espaçamento na parte superioe inferior e o valor auto posiciona o elemento para os lados automaticamete*/
   
 }
 
 
 h1{
-  font-size: 3rem;
-  
-
+  font-size: 3rem; /*Define o tamanho da (Fonte) letra do elento*/
 }
 
 
 h2{
-  font-size: 1.5;
+  font-size: 1.5rem;
   margin-bottom: 20px;
-
 }
 
 
 h3{
   font-size: 1.2rem;
   margin-bottom: 12px;
-
 }
+
 
 
 section{
@@ -80,24 +79,15 @@ section{
 
 section div{
   background-image: url("img/bg_laranja.jpg"); /*propriedade imagem de fundo do elemento*/
-  /*margin: 16px; Insere um espaçamento externo do elemento*/
+  /*margin: 16px; removido para ajustar os textos da div Insere um espaçamento externo do elemento*/
   padding: 24px; /*Insere um espaçamento interno do elemento*/
   height: 200px; /*Insere uma altura no elemento*/
   width: 300px; /*Insere uma largura no elemento*/
-  border-radius: 16px;
-  
+  border-radius: 16px; /*Define o elemnto com as bordas arredondas*/
+  box-shadow: 10px 9px 10px rgba(255, 166, 0, 0.683); /*Define sombras no elemento*/
 }
 
-section div:first-of-type{
-  margin-right: 16px;
-}
-section :first-of-type{
-  margin-top: 5px;
+section div:first-of-type{ /*Seleciona o primeiro elemento da div que esta na section*/
+  margin-right: 16px; /*Define uma espaçamento a direita do primeiro elemento da div*/ 
 }
 
-footer{
-  margin-top: 12px;
-  background-color: lightgray;
-  text-align: center;
-  color: #df0000;
-}
