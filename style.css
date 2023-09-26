@@ -11,7 +11,7 @@ body{
 header{
   display: flex; /*propriedade exibe os elementos Filhos de forma horizontal contidos no elemento Pai */
   margin-top: 2px;
-  background-color: lightgrey; /*propriedade cor de fundo do elemento*/
+  background-color: rgb(145, 117, 117); /*propriedade cor de fundo do elemento*/
   margin-bottom: px; /*Insere um espaçamento externo inferior  do elemento*/
   padding: 8px; /*Insere um espaçamento interno do elemento*/
   justify-content: space-between; /*Propriedade coloca um espaço no meio e separa os elementos fihos nos extremos*/
@@ -93,14 +93,11 @@ section div:first-of-type{
 }
 section :first-of-type{
   margin-top: 5px;
-  
-  
-  
 }
 
 footer{
   margin-top: 12px;
   background-color: lightgray;
   text-align: center;
-  color: #FFFFFF;
+  color: #df0000;
 }
